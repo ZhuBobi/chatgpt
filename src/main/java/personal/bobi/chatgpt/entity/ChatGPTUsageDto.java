@@ -1,0 +1,13 @@
+package personal.bobi.chatgpt.entity;
+
+import lombok.Data;
+
+@Data
+public class ChatGPTUsageDto {
+
+    private Integer prompt_tokens;
+
+    private Integer completion_tokens;
+
+    private Integer total_tokens;
+}
